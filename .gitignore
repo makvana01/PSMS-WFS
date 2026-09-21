@@ -1,0 +1,76 @@
+# ==============================================================================
+# DOCUMENTATION & PROGRESS REPORT GENERATION FILES (IGNORED)
+# ==============================================================================
+
+# Project Documentation files & exports
+PROJECT_DOCUMENTATION*
+PROJECT_DOCUMENTATION.md
+PROJECT_DOCUMENTATION.pdf
+PROJECT_DOCUMENTATION_FIXED.pdf
+PROJECT_DOCUMENTATION_PDF.html
+
+# Progress Reports (HTML, DOCX, PDF)
+PROGRESS_REPORT*
+PROGRESS_REPORTS*
+PROGRESS_REPORTS_Sem5.html
+PROGRESS_REPORTS_Sem5_ALL.docx
+PROGRESS_REPORTS_Sem5_ALL_IN_ONE.pdf
+PROGRESS_REPORT_Sem5_*.pdf
+
+# Python Scripts used for Documentation & Report Generation
+apply_full_documentation_fix.py
+apply_submission_ready_fix.py
+fix_all_diagrams_and_cover.py
+fix_documentation_final.py
+fix_pdf_layout.py
+generate_final_pdf.py
+generate_progress_reports.py
+generate_unified_pdf_doc.py
+inspect_diagrams.py
+inspect_pdf_pages.py
+list_diagrams.py
+repair_and_finalize.py
+*.py
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Preview images generated during PDF inspection & testing
+page_*_preview.png
+*_preview.png
+
+# Document & Report formats
+*.pdf
+*.docx
+
+# ==============================================================================
+# GENERAL PROJECT & ENVIRONMENT IGNORES
+# ==============================================================================
+
+# User Uploads (keep folders, ignore uploaded student/company files)
+uploads/companies/*
+!uploads/companies/.gitkeep
+uploads/id_cards/*
+!uploads/id_cards/.gitkeep
+uploads/resumes/*
+!uploads/resumes/.gitkeep
+uploads/students/*
+!uploads/students/.gitkeep
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary & Log Files
+*.log
+*.tmp
+*.bak
+config.bat
+node_modules
